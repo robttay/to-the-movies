@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-@Controller                             //be2a38521a7859c95e2d73c48786e4bb
+@Controller
 public class MovieController {
     private static final String API_TOKEN = "be2a38521a7859c95e2d73c48786e4bb";
     private static final String NOW_PLAYING_URL = "https://api.themoviedb.org/3/movie/now_playing?api_key=" + API_TOKEN;
