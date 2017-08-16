@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>To The Movies - Movie Overwiews Mashup</title>
+</head>
+<body>
+<a href="/home">Back to Home Page</a>
+<h1>Overviews Mashup Page</h1>
+<h3>Here are overviews of five movies playing in theaters (all mashed together):</h3>
+<div>
+    <span th:text="${mashupString}"></span>
+</div>
+</body>
+</html>
